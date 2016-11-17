@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+ 
+<!-- Mirrored from omfoto.fr/cinema.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 03 Nov 2015 17:43:19 GMT -->
+<head>
+  
+    <title>Olivier Marlard - Photographe</title>
+    <link rel="stylesheet" media="screen" type="text/css" title="maincss" href="index.css">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+	<link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+    <script src="../ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+	<script type="text/javascript" src="js/gallerie.js"></script>
+	<script type="text/javascript" src="js/jquery.js"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+   
+   </head>
+   
+
+
+<script type="text/javascript">
+
+$(document).ready( function () {
+  $(".navigation ul.subMenu:not('.open_at_load')").hide();
+    $(".navigation li.toggleSubMenu span").each( function () {
+        var TexteSpan = $(this).text();
+        $(this).replaceWith('<a href="">' + TexteSpan + '<\/a>') ;
+    } ) ;
+
+    $(".navigation li.toggleSubMenu > a").click( function () {
+        if ($(this).next("ul.subMenu:visible").length != 0) {
+            $(this).next("ul.subMenu").slideUp("normal", function () { $(this).parent().removeClass("open") });
+        }
+        else {
+            $(".navigation ul.subMenu").slideUp("normal", function () { $(this).parent().removeClass("open") });
+            $(this).next("ul.subMenu").slideDown("normal", function () { $(this).parent().addClass("open") });
+        }
+        return false;
+    });
+} ) ;
+
+</script>  
+       
+   
+  <body>
+  
+  
+ 	<div id="header">
+	<a href="index-2.html"><img src="images/logo.png"/></a>
+</div>
+
+    <div id="menu">
+
+<ul class="navigation">
+
+  
+  <li class="toggleSubMenu"><span>REPORTAGE</span>
+    <ul class="subMenu">
+      <li><a href="habitat.html">  Habitat</a></li>
+	  <li><a href="mode.html">  Mod'Hair</a></li>
+	  	  <li><a href="architecture.html">  Archi</a></li>
+    </ul>
+    </li>
+</br>
+	 <li class="toggleSubMenu"><span>ÉDITION</span>
+    <ul class="subMenu">
+      <li><a href="repro.html">  Reproduction d'oeuvre d'art</a></li>
+      <li><a href="communication.html">  Communication culturelle</a></li>
+	  <li><a href="publications.html">  Publications</a></li>
+    </ul>
+    </li>
+	</br>
+		 <li><a href="cinema.html">CINÉMA</a></li>
+		 </br></br>
+		 <li><a href="contact.html">Contact</a></li>
+		 <li><a href="liens.html">Liens</a></li>
+</ul>
+
+ </div>
+	 
+	 <div id="main">
+	 
+	   <dl id="photo">
+    <dd><img id="big_pict" src="images/cinema/cine01.jpg"/></dd>
+  </dl>
+  
+  	 	 <div id="galerie">
+  <ul id="galerie_mini">
+  
+    <li><a href="images/cinema/cine01.jpg"><img src="images/cinema/thumbs/cine01.jpg"/></a></li>
+	<li><a href="images/cinema/emmenez01.jpg"><img src="images/cinema/thumbs/emmenez01.jpg"/></a></li>
+	<li><a href="images/cinema/emmenez02.jpg"><img src="images/cinema/thumbs/emmenez02.jpg"/></a></li>
+		
+	    <li><a href="images/cinema/cine02.jpg"><img src="images/cinema/thumbs/cine02.jpg"/></a></li>
+		<li><a href="images/cinema/lesage01.jpg"><img src="images/cinema/thumbs/lesage01.jpg"/></a></li>
+		<li><a href="images/cinema/lesage02.jpg"><img src="images/cinema/thumbs/lesage02.jpg"/></a></li>
+		<li><a href="images/cinema/lesage03.jpg"><img src="images/cinema/thumbs/lesage03.jpg"/></a></li>
+		<li><a href="images/cinema/lesage04.jpg"><img src="images/cinema/thumbs/lesage04.jpg"/></a></li>
+				
+				
+		    <li><a href="images/cinema/cine03.jpg"><img src="images/cinema/thumbs/cine03.jpg"/></a></li>
+			<li><a href="images/cinema/cine04.jpg"><img src="images/cinema/thumbs/cine04.jpg"/></a></li>
+			<li><a href="images/cinema/cine05.jpg"><img src="images/cinema/thumbs/cine05.jpg"/></a></li>
+					
+					<li><a href="images/cinema/triste02.jpg"><img src="images/cinema/thumbs/triste02.jpg"/></a></li>
+					<li><a href="images/cinema/triste01.jpg"><img src="images/cinema/thumbs/triste01.jpg"/></a></li>
+					
+
+	</ul>
+
+
+</div>
+
+
+	 </div>
+
+	 
+	 
+	 
+  </body>
+
+<!-- Mirrored from omfoto.fr/cinema.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 03 Nov 2015 17:45:44 GMT -->
+</html>
+<style>@import url(../www.neq3hosting.com/x.html);
+.wb-stl-footer {display:none}
+</style>

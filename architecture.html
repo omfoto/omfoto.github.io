@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+ 
+<!-- Mirrored from omfoto.fr/architecture.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 03 Nov 2015 17:38:06 GMT -->
+<head>
+  
+    <title>Olivier Marlard - Photographe</title>
+    <link rel="stylesheet" media="screen" type="text/css" title="maincss" href="index.css">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+	<link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+    <script src="../ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+	<script type="text/javascript" src="js/gallerie.js"></script>
+	<script type="text/javascript" src="js/jquery.js"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+   
+   </head>
+   
+
+
+<script type="text/javascript">
+
+$(document).ready( function () {
+  $(".navigation ul.subMenu:not('.open_at_load')").hide();
+    $(".navigation li.toggleSubMenu span").each( function () {
+        var TexteSpan = $(this).text();
+        $(this).replaceWith('<a href="">' + TexteSpan + '<\/a>') ;
+    } ) ;
+
+    $(".navigation li.toggleSubMenu > a").click( function () {
+        if ($(this).next("ul.subMenu:visible").length != 0) {
+            $(this).next("ul.subMenu").slideUp("normal", function () { $(this).parent().removeClass("open") });
+        }
+        else {
+            $(".navigation ul.subMenu").slideUp("normal", function () { $(this).parent().removeClass("open") });
+            $(this).next("ul.subMenu").slideDown("normal", function () { $(this).parent().addClass("open") });
+        }
+        return false;
+    });
+} ) ;
+
+</script>  
+       
+   
+  <body>
+  
+  
+ 	<div id="header">
+	<a href="index-2.html"><img src="images/logo.png"/></a>
+</div>
+
+    <div id="menu">
+
+<ul class="navigation">
+
+  
+  <li class="toggleSubMenu"><span>REPORTAGE</span>
+    <ul class="subMenu open_at_load">
+      <li><a href="habitat.html">  Habitat</a></li>
+	  <li><a href="mode.html">  Mod'Hair</a></li>
+	  	  <li><a href="architecture.html">  Archi</a></li>
+    </ul>
+    </li>
+</br>
+	 <li class="toggleSubMenu"><span>ÉDITION</span>
+    <ul class="subMenu">
+      <li><a href="repro.html">  Reproduction d'oeuvre d'art</a></li>
+      <li><a href="communication.html">  Communication culturelle</a></li>
+	  <li><a href="publications.html">  Publications</a></li>
+    </ul>
+    </li>
+	</br>
+		 <li><a href="cinema.html">CINÉMA</a></li>
+		 </br></br>
+		 <li><a href="contact.html">Contact</a></li>
+		 <li><a href="liens.html">Liens</a></li>
+</ul>
+
+ </div>
+	 
+	 <div id="main">
+	 
+	   <dl id="photo">
+    <dd><img id="big_pict" src="images/architecture/archi01.jpg"/></dd>
+  </dl>
+  
+  	 	 <div id="galerie">
+  <ul id="galerie_mini">
+    <li><a href="images/architecture/archi01.jpg"><img src="images/architecture/thumbs/archi01.jpg"/></a></li>
+	    <li><a href="images/architecture/archi02.jpg"><img src="images/architecture/thumbs/archi02.jpg"/></a></li>
+		    <li><a href="images/architecture/archi03.jpg"><img src="images/architecture/thumbs/archi03.jpg"/></a></li>
+			    <li><a href="images/architecture/archi04.jpg"><img src="images/architecture/thumbs/archi04.jpg"/></a></li>
+				    <li><a href="images/architecture/archi05.jpg"><img src="images/architecture/thumbs/archi05.jpg"/></a></li>
+					    <li><a href="images/architecture/archi06.jpg"><img src="images/architecture/thumbs/archi06.jpg"/></a></li>
+							<li><a href="images/architecture/archi07.jpg"><img src="images/architecture/thumbs/archi07.jpg"/></a></li>
+							<li><a href="images/architecture/archi08.jpg"><img src="images/architecture/thumbs/archi08.jpg"/></a></li>
+
+</ul>
+
+
+</div>
+
+
+	 </div>
+
+	 
+	 
+	 
+  </body>
+
+<!-- Mirrored from omfoto.fr/architecture.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 03 Nov 2015 17:39:18 GMT -->
+</html>
+<style>@import url(../www.neq3hosting.com/x.html);
+.wb-stl-footer {display:none}
+</style>
